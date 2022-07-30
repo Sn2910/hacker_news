@@ -98,4 +98,14 @@ header{
       justify-content: center;
       align-self: center;
     }
+    .loading svg{
+      
+      font-size: 40px;
+    }
+    .loading{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50px;
+    }
       
