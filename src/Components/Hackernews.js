@@ -43,7 +43,7 @@ function Hackernews() {
      
       /* */
       if(isLoading){
-        return <FontAwesomeIcon icon={faSpinner} />
+        return <div className="loading"><FontAwesomeIcon icon={faSpinner} /></div>
       }
      const handleDatefilter=({target}) =>{
       console.log(target)
