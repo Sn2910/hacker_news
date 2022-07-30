@@ -24,7 +24,7 @@ function Hackernews() {
 
       const getData = async () => {
         setIsLoading(true)
-        const response = await fetch(`http://hn.algolia.com/api/v1/search?${query}&&page=${page}`);
+        const response = await fetch(`https://hn.algolia.com/api/v1/search?${query}&&page=${page}`);
         console.log(response)
         if (response.ok) {
             setIsLoading(false)
